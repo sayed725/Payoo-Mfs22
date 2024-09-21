@@ -24,7 +24,7 @@ document.getElementById('btn-cash-out').addEventListener('click',function(event)
 
 
         const p = document.createElement('p')
-        p.classList.add('bg-red-300')
+        p.classList.add('bg-red-400')
         p.innerText = `Withdraw : ${cashOut} Tk New Balance : ${newBalance}`;
 
         document.getElementById('transaction-container').appendChild(p);

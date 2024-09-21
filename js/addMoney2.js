@@ -17,7 +17,7 @@ document.getElementById('btn-add-money').addEventListener('click', function (eve
 
         // add to transition history 
         const p = document.createElement('p')
-        p.classList.add('bg-green-300')
+        p.classList.add('bg-green-400')
         p.innerText = `Added: ${addMoney} Tk New Balance : ${newBalance}`;
         
 
