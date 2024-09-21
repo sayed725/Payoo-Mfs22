@@ -13,3 +13,24 @@ function getTextFieldValueById(id){
 
     return textNumber;
 }
+
+
+
+function showSectionById(id){
+
+    document.getElementById('add-money-form').classList.add('hidden');
+    document.getElementById('cash-out-form').classList.add('hidden');
+    document.getElementById('transaction-section').classList.add('hidden')
+
+    document.getElementById(id).classList.remove('hidden');
+
+}
+
+function showBtnPrimary(id){
+
+    document.getElementById('show-add-money-form').classList.remove('btn-primary')
+    document.getElementById('show-cash-out-form').classList.remove('btn-primary')
+    document.getElementById('show-transaction-history').classList.remove('btn-primary')
+
+    document.getElementById(id).classList.add('btn-primary')
+}
